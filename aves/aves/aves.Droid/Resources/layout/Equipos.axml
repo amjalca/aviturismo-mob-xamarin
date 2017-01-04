@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:rowCount="6"
+    p1:columnCount="3"
+    p1:background="@android:color/white">
+    <Space
+        p1:layout_row="0"
+        p1:layout_column="0"
+        p1:layout_width="30dp"
+        p1:layout_height="30dp" />
+    <Space
+        p1:layout_row="0"
+        p1:layout_column="1"
+        p1:layout_width="30dp"
+        p1:layout_height="30dp" />
+    <Space
+        p1:layout_row="0"
+        p1:layout_column="2"
+        p1:layout_width="30dp"
+        p1:layout_height="30dp" />
+    <ImageButton
+        p1:src="@drawable/equipoop1"
+        p1:layout_width="153dp"
+        p1:layout_height="153dp"
+        p1:id="@+id/equipoBinoculares"
+        p1:layout_row="1"
+        p1:layout_column="0"
+        p1:layout_marginBottom="0.0dp" />
+    <ImageButton
+        p1:src="@drawable/equipoop2"
+        p1:layout_width="153dp"
+        p1:layout_height="133dp"
+        p1:id="@+id/equipoAgua"
+        p1:layout_row="1"
+        p1:layout_column="1"
+        p1:layout_marginBottom="0.0dp" />
+    <ImageButton
+        p1:src="@drawable/equipoop3"
+        p1:layout_width="153dp"
+        p1:layout_height="153dp"
+        p1:id="@+id/equipoSanduche"
+        p1:layout_row="1"
+        p1:layout_column="2"
+        p1:layout_marginBottom="0.0dp" />
+    <Space
+        p1:layout_row="2"
+        p1:layout_column="0"
+        p1:layout_width="30dp"
+        p1:layout_height="30dp" />
+    <Space
+        p1:layout_row="2"
+        p1:layout_column="1"
+        p1:layout_width="30dp"
+        p1:layout_height="30dp" />
+    <Space
+        p1:layout_row="2"
+        p1:layout_column="2"
+        p1:layout_width="30dp"
+        p1:layout_height="30dp" />
+    <ImageButton
+        p1:src="@drawable/equipoop4"
+        p1:layout_width="153dp"
+        p1:layout_height="153dp"
+        p1:id="@+id/equipoCamara"
+        p1:layout_row="3"
+        p1:layout_column="0"
+        p1:layout_marginBottom="0.0dp" />
+    <ImageButton
+        p1:src="@drawable/equipoop5"
+        p1:layout_width="153dp"
+        p1:layout_height="153dp"
+        p1:id="@+id/equipoLibreta"
+        p1:layout_row="3"
+        p1:layout_column="1"
+        p1:layout_marginBottom="0.0dp" />
+    <ImageButton
+        p1:src="@drawable/equipoop6"
+        p1:layout_width="153dp"
+        p1:layout_height="153dp"
+        p1:id="@+id/equipoLupa"
+        p1:layout_row="3"
+        p1:layout_column="2"
+        p1:layout_marginBottom="0.0dp" />
+    <Space
+        p1:layout_row="4"
+        p1:layout_column="0"
+        p1:layout_width="30dp"
+        p1:layout_height="30dp" />
+    <Space
+        p1:layout_row="4"
+        p1:layout_column="1"
+        p1:layout_width="30dp"
+        p1:layout_height="30dp" />
+    <Space
+        p1:layout_row="4"
+        p1:layout_column="2"
+        p1:layout_width="30dp"
+        p1:layout_height="30dp" />
+    <ImageButton
+        p1:src="@drawable/equipoop7"
+        p1:layout_width="153dp"
+        p1:layout_height="153dp"
+        p1:id="@+id/equipoPinzas"
+        p1:layout_row="5"
+        p1:layout_column="0"
+        p1:layout_marginBottom="0.0dp" />
+    <ImageButton
+        p1:src="@drawable/equipoop8"
+        p1:layout_width="153dp"
+        p1:layout_height="153dp"
+        p1:id="@+id/equipoLapiz"
+        p1:layout_row="5"
+        p1:layout_column="1"
+        p1:layout_marginBottom="0.0dp" />
+</GridLayout>
