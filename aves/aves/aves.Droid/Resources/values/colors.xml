@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--Basado en el tema de colores: https://color.adobe.com/es/Flat-UI-color-theme-2469224/-->
+<resources>
+  <color name = "tono1">#2C3E50</color>
+  <color name = "tono2">#E74C3C</color>
+  <color name = "tono3">#ECF0F1</color>
+  <color name = "tono4">#3498DB</color>
+  <color name = "tono5">#2980B9</color>
+</resources>

@@ -41,6 +41,34 @@ namespace aves.Droid
 			}
 		}
 		
+		public partial class Color
+		{
+			
+			// aapt resource value: 0x7f040000
+			public const int tono1 = 2130968576;
+			
+			// aapt resource value: 0x7f040001
+			public const int tono2 = 2130968577;
+			
+			// aapt resource value: 0x7f040002
+			public const int tono3 = 2130968578;
+			
+			// aapt resource value: 0x7f040003
+			public const int tono4 = 2130968579;
+			
+			// aapt resource value: 0x7f040004
+			public const int tono5 = 2130968580;
+			
+			static Color()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Color()
+			{
+			}
+		}
+		
 		public partial class Drawable
 		{
 			
@@ -51,61 +79,121 @@ namespace aves.Droid
 			public const int boton1 = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int equipoMenuPrinc = 2130837506;
+			public const int down_arrow = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int equipoOP1 = 2130837507;
+			public const int equipoMenuPrinc = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public const int equipoOP2 = 2130837508;
+			public const int equipoOP1 = 2130837508;
 			
 			// aapt resource value: 0x7f020005
-			public const int equipoOP3 = 2130837509;
+			public const int equipoOP2 = 2130837509;
 			
 			// aapt resource value: 0x7f020006
-			public const int equipoOP4 = 2130837510;
+			public const int equipoOP3 = 2130837510;
 			
 			// aapt resource value: 0x7f020007
-			public const int equipoOP5 = 2130837511;
+			public const int equipoOP4 = 2130837511;
 			
 			// aapt resource value: 0x7f020008
-			public const int equipoOP6 = 2130837512;
+			public const int equipoOP5 = 2130837512;
 			
 			// aapt resource value: 0x7f020009
-			public const int equipoOP7 = 2130837513;
+			public const int equipoOP6 = 2130837513;
 			
 			// aapt resource value: 0x7f02000a
-			public const int equipoOP8 = 2130837514;
+			public const int equipoOP7 = 2130837514;
 			
 			// aapt resource value: 0x7f02000b
-			public const int equipoOPCION = 2130837515;
+			public const int equipoOP8 = 2130837515;
 			
 			// aapt resource value: 0x7f02000c
-			public const int equipoOPCION2 = 2130837516;
+			public const int equipoOPCION = 2130837516;
 			
 			// aapt resource value: 0x7f02000d
-			public const int gaviota = 2130837517;
+			public const int equipoOPCION2 = 2130837517;
 			
 			// aapt resource value: 0x7f02000e
-			public const int habitOP2 = 2130837518;
+			public const int gaviota = 2130837518;
 			
 			// aapt resource value: 0x7f02000f
-			public const int Icon = 2130837519;
+			public const int habitOP2 = 2130837519;
 			
 			// aapt resource value: 0x7f020010
-			public const int morfolOP2 = 2130837520;
+			public const int ic_action_menu = 2130837520;
 			
 			// aapt resource value: 0x7f020011
-			public const int recomOP2 = 2130837521;
+			public const int ic_launcher = 2130837521;
 			
 			// aapt resource value: 0x7f020012
-			public const int sonidoMenuPrinc = 2130837522;
+			public const int ic_menu_equipo = 2130837522;
 			
 			// aapt resource value: 0x7f020013
-			public const int soniodOP2 = 2130837523;
+			public const int ic_menu_habitats = 2130837523;
 			
 			// aapt resource value: 0x7f020014
-			public const int tipoAveOP2 = 2130837524;
+			public const int ic_menu_morfologia = 2130837524;
+			
+			// aapt resource value: 0x7f020015
+			public const int ic_menu_recomendacion = 2130837525;
+			
+			// aapt resource value: 0x7f020016
+			public const int ic_menu_sonido = 2130837526;
+			
+			// aapt resource value: 0x7f020017
+			public const int ic_menu_tipo = 2130837527;
+			
+			// aapt resource value: 0x7f020018
+			public const int Icon = 2130837528;
+			
+			// aapt resource value: 0x7f020019
+			public const int icon_aboutus = 2130837529;
+			
+			// aapt resource value: 0x7f02001a
+			public const int icon_client = 2130837530;
+			
+			// aapt resource value: 0x7f02001b
+			public const int icon_contactus = 2130837531;
+			
+			// aapt resource value: 0x7f02001c
+			public const int icon_event = 2130837532;
+			
+			// aapt resource value: 0x7f02001d
+			public const int icon_help = 2130837533;
+			
+			// aapt resource value: 0x7f02001e
+			public const int icon_home = 2130837534;
+			
+			// aapt resource value: 0x7f02001f
+			public const int icon_product = 2130837535;
+			
+			// aapt resource value: 0x7f020020
+			public const int icon_service = 2130837536;
+			
+			// aapt resource value: 0x7f020021
+			public const int icon_solution = 2130837537;
+			
+			// aapt resource value: 0x7f020022
+			public const int menu_icon = 2130837538;
+			
+			// aapt resource value: 0x7f020023
+			public const int morfolOP2 = 2130837539;
+			
+			// aapt resource value: 0x7f020024
+			public const int recomOP2 = 2130837540;
+			
+			// aapt resource value: 0x7f020025
+			public const int sonidoMenuPrinc = 2130837541;
+			
+			// aapt resource value: 0x7f020026
+			public const int soniodOP2 = 2130837542;
+			
+			// aapt resource value: 0x7f020027
+			public const int tipoAveOP2 = 2130837543;
+			
+			// aapt resource value: 0x7f020028
+			public const int up_arrow = 2130837544;
 			
 			static Drawable()
 			{
@@ -120,53 +208,35 @@ namespace aves.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050001
-			public const int equipoAgua = 2131034113;
+			// aapt resource value: 0x7f070006
+			public const int btnImgExpander = 2131165190;
 			
-			// aapt resource value: 0x7f050000
-			public const int equipoBinoculares = 2131034112;
+			// aapt resource value: 0x7f070003
+			public const int imgProfilePic = 2131165187;
 			
-			// aapt resource value: 0x7f050003
-			public const int equipoCamara = 2131034115;
+			// aapt resource value: 0x7f070008
+			public const int ivMenuImg = 2131165192;
 			
-			// aapt resource value: 0x7f050007
-			public const int equipoLapiz = 2131034119;
+			// aapt resource value: 0x7f070001
+			public const int menuIconImgView = 2131165185;
 			
-			// aapt resource value: 0x7f050004
-			public const int equipoLibreta = 2131034116;
+			// aapt resource value: 0x7f070007
+			public const int menuListView = 2131165191;
 			
-			// aapt resource value: 0x7f050005
-			public const int equipoLupa = 2131034117;
+			// aapt resource value: 0x7f070000
+			public const int titleBarLinearLayout = 2131165184;
 			
-			// aapt resource value: 0x7f050006
-			public const int equipoPinzas = 2131034118;
+			// aapt resource value: 0x7f070002
+			public const int txtActionBarText = 2131165186;
 			
-			// aapt resource value: 0x7f050002
-			public const int equipoSanduche = 2131034114;
+			// aapt resource value: 0x7f070005
+			public const int txtDescription = 2131165189;
 			
-			// aapt resource value: 0x7f050009
-			public const int imageButton1 = 2131034121;
+			// aapt resource value: 0x7f070009
+			public const int txtMnuText = 2131165193;
 			
-			// aapt resource value: 0x7f050008
-			public const int imageView1 = 2131034120;
-			
-			// aapt resource value: 0x7f05000a
-			public const int opcionEquipos = 2131034122;
-			
-			// aapt resource value: 0x7f05000d
-			public const int opcionHabitats = 2131034125;
-			
-			// aapt resource value: 0x7f05000c
-			public const int opcionMorfologia = 2131034124;
-			
-			// aapt resource value: 0x7f05000f
-			public const int opcionRecomendaciones = 2131034127;
-			
-			// aapt resource value: 0x7f05000e
-			public const int opcionSonidos = 2131034126;
-			
-			// aapt resource value: 0x7f05000b
-			public const int opcionTipoAves = 2131034123;
+			// aapt resource value: 0x7f070004
+			public const int txtPage = 2131165188;
 			
 			static Id()
 			{
@@ -182,13 +252,10 @@ namespace aves.Droid
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Equipos = 2130903040;
+			public const int Main = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int Main = 2130903041;
-			
-			// aapt resource value: 0x7f030002
-			public const int MenuPrincipal = 2130903042;
+			public const int Menu = 2130903041;
 			
 			static Layout()
 			{
@@ -203,11 +270,8 @@ namespace aves.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040001
-			public const int app_name = 2130968577;
-			
-			// aapt resource value: 0x7f040000
-			public const int hello = 2130968576;
+			// aapt resource value: 0x7f050000
+			public const int app_name = 2131034112;
 			
 			static String()
 			{
@@ -215,6 +279,22 @@ namespace aves.Droid
 			}
 			
 			private String()
+			{
+			}
+		}
+		
+		public partial class Style
+		{
+			
+			// aapt resource value: 0x7f060000
+			public const int BaseTema = 2131099648;
+			
+			static Style()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Style()
 			{
 			}
 		}

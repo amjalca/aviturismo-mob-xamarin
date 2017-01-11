@@ -1,5 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="hello">Iremos a casa al fin</string>
-	<string name="app_name">aves.Droid</string>
+	<string name="app_name">Aprendizaje de aves</string>
 </resources>

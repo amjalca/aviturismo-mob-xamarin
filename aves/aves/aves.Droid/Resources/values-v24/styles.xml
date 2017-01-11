@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <!--Hereda del tema light-->
+  <style name="BaseTema" parent="android:Theme.Material.Light">
+    <!--Override de bar color-->
+    <item name="android:colorPrimary">@color/tono4</item>
+    <item name="android:windowBackground">@color/tono3</item>
+    <item name="android:textColorPrimary">@color/tono3</item>
+    <item name="android:colorAccent">@color/tono2</item>
+  </style>
+</resources>
