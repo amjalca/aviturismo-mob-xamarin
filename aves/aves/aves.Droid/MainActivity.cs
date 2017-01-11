@@ -19,7 +19,7 @@ using Android.Graphics;
 
 namespace aves.Droid
 {
-    [Activity(Theme = "@android:style/Theme.Material.Light", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Theme = "@android:style/Theme.Material.Light", MainLauncher = true, Icon = "@drawable/ic_launcher")]
     public class MainActivity : Activity
     {
         GestureDetector gestureDetector;
@@ -87,7 +87,7 @@ namespace aves.Droid
             }
             //menuListView.LayoutParameters = new RelativeLayout.LayoutParams(intDisplayWidth, ViewGroup.LayoutParams.MatchParent);
         }
-        #region " Menu related"
+        #region " Menu listado"
         void FnBindMenu()
         {
             string[] strMnuText = { "Equipos", "Recomendaciones", "Tipos de ave", "Morfología", "Habitats", "Sonidos" };
@@ -126,7 +126,7 @@ namespace aves.Droid
         }
         #endregion
 
-        #region "Gesture function "
+        #region "Gesture eventos "
         void GestureLeft()
         {
             if (!menuListView.IsShown)
@@ -166,7 +166,7 @@ namespace aves.Droid
                 txtDescription.Visibility = ViewStates.Gone;
                 txtDescription.Animation = new TranslateAnimation(0f, 0f, 0f, txtDescription.MeasuredHeight);
                 txtDescription.Animation.Duration = 300;
-                btnDescExpander.SetImageResource(Resource.Drawable.up_arrow);
+                btnDescExpander.SetImageResource(Resource.Drawable.ic_action_info);
             }
             else
             {
@@ -174,13 +174,13 @@ namespace aves.Droid
                 txtDescription.RequestFocus();
                 txtDescription.Animation = new TranslateAnimation(0f, 0f, txtDescription.MeasuredHeight, 0f);
                 txtDescription.Animation.Duration = 300;
-                btnDescExpander.SetImageResource(Resource.Drawable.down_arrow);
+                btnDescExpander.SetImageResource(Resource.Drawable.ic_action_info);
             }
         }
         #endregion
     }
 
-    #region " Menu list adapter"
+    #region " Menu adapter"
     public class MenuListAdapterClass : BaseAdapter<string>
     {
         Activity _context;

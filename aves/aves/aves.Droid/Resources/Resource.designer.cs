@@ -73,127 +73,34 @@ namespace aves.Droid
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int back1 = 2130837504;
+			public const int ic_action_info = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int boton1 = 2130837505;
+			public const int ic_action_menu = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int down_arrow = 2130837506;
+			public const int ic_launcher = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int equipoMenuPrinc = 2130837507;
+			public const int ic_launcher_activity = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public const int equipoOP1 = 2130837508;
+			public const int ic_menu_equipo = 2130837508;
 			
 			// aapt resource value: 0x7f020005
-			public const int equipoOP2 = 2130837509;
+			public const int ic_menu_habitats = 2130837509;
 			
 			// aapt resource value: 0x7f020006
-			public const int equipoOP3 = 2130837510;
+			public const int ic_menu_morfologia = 2130837510;
 			
 			// aapt resource value: 0x7f020007
-			public const int equipoOP4 = 2130837511;
+			public const int ic_menu_recomendacion = 2130837511;
 			
 			// aapt resource value: 0x7f020008
-			public const int equipoOP5 = 2130837512;
+			public const int ic_menu_sonido = 2130837512;
 			
 			// aapt resource value: 0x7f020009
-			public const int equipoOP6 = 2130837513;
-			
-			// aapt resource value: 0x7f02000a
-			public const int equipoOP7 = 2130837514;
-			
-			// aapt resource value: 0x7f02000b
-			public const int equipoOP8 = 2130837515;
-			
-			// aapt resource value: 0x7f02000c
-			public const int equipoOPCION = 2130837516;
-			
-			// aapt resource value: 0x7f02000d
-			public const int equipoOPCION2 = 2130837517;
-			
-			// aapt resource value: 0x7f02000e
-			public const int gaviota = 2130837518;
-			
-			// aapt resource value: 0x7f02000f
-			public const int habitOP2 = 2130837519;
-			
-			// aapt resource value: 0x7f020010
-			public const int ic_action_menu = 2130837520;
-			
-			// aapt resource value: 0x7f020011
-			public const int ic_launcher = 2130837521;
-			
-			// aapt resource value: 0x7f020012
-			public const int ic_menu_equipo = 2130837522;
-			
-			// aapt resource value: 0x7f020013
-			public const int ic_menu_habitats = 2130837523;
-			
-			// aapt resource value: 0x7f020014
-			public const int ic_menu_morfologia = 2130837524;
-			
-			// aapt resource value: 0x7f020015
-			public const int ic_menu_recomendacion = 2130837525;
-			
-			// aapt resource value: 0x7f020016
-			public const int ic_menu_sonido = 2130837526;
-			
-			// aapt resource value: 0x7f020017
-			public const int ic_menu_tipo = 2130837527;
-			
-			// aapt resource value: 0x7f020018
-			public const int Icon = 2130837528;
-			
-			// aapt resource value: 0x7f020019
-			public const int icon_aboutus = 2130837529;
-			
-			// aapt resource value: 0x7f02001a
-			public const int icon_client = 2130837530;
-			
-			// aapt resource value: 0x7f02001b
-			public const int icon_contactus = 2130837531;
-			
-			// aapt resource value: 0x7f02001c
-			public const int icon_event = 2130837532;
-			
-			// aapt resource value: 0x7f02001d
-			public const int icon_help = 2130837533;
-			
-			// aapt resource value: 0x7f02001e
-			public const int icon_home = 2130837534;
-			
-			// aapt resource value: 0x7f02001f
-			public const int icon_product = 2130837535;
-			
-			// aapt resource value: 0x7f020020
-			public const int icon_service = 2130837536;
-			
-			// aapt resource value: 0x7f020021
-			public const int icon_solution = 2130837537;
-			
-			// aapt resource value: 0x7f020022
-			public const int menu_icon = 2130837538;
-			
-			// aapt resource value: 0x7f020023
-			public const int morfolOP2 = 2130837539;
-			
-			// aapt resource value: 0x7f020024
-			public const int recomOP2 = 2130837540;
-			
-			// aapt resource value: 0x7f020025
-			public const int sonidoMenuPrinc = 2130837541;
-			
-			// aapt resource value: 0x7f020026
-			public const int soniodOP2 = 2130837542;
-			
-			// aapt resource value: 0x7f020027
-			public const int tipoAveOP2 = 2130837543;
-			
-			// aapt resource value: 0x7f020028
-			public const int up_arrow = 2130837544;
+			public const int ic_menu_tipo = 2130837513;
 			
 			static Drawable()
 			{
