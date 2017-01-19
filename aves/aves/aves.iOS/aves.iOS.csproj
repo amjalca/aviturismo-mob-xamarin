@@ -4,11 +4,11 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <ProjectGuid>656ff376-deeb-43a8-b63a-eb0802558fc6</ProjectGuid>
+    <ProjectGuid>054532d2-9082-424b-97f1-d29a586603de</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>aves.iOS</RootNamespace>
+    <RootNamespace>Aves.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>aves.iOS</AssemblyName>
+    <AssemblyName>Aves.iOS</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
     <DebugSymbols>true</DebugSymbols>
@@ -67,8 +67,8 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\aves\aves.csproj">
-      <Name>aves</Name>
+    <ProjectReference Include="..\Aves\Aves.csproj">
+      <Name>Aves</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

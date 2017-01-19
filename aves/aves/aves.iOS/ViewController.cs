@@ -2,7 +2,7 @@
 
 using UIKit;
 
-namespace aves.iOS
+namespace Aves.iOS
 {
 	public partial class ViewController : UIViewController
 	{

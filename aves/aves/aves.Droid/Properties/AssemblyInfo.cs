@@ -5,7 +5,7 @@ using Android.App;
 // Information about this assembly is defined by the following attributes.
 // Change them to the values specific to your project.
 
-[assembly: AssemblyTitle ("aves.Droid")]
+[assembly: AssemblyTitle ("Aves.Droid")]
 [assembly: AssemblyDescription ("")]
 [assembly: AssemblyConfiguration ("")]
 [assembly: AssemblyCompany ("")]
@@ -17,7 +17,7 @@ using Android.App;
 // The assembly version has the format "{Major}.{Minor}.{Build}.{Revision}".
 // The form "{Major}.{Minor}.*" will automatically update the build and revision,
 // and "{Major}.{Minor}.{Build}.*" will update just the revision.
-[assembly: Application(Theme = "@android:style/Theme.Material.Light")]
+
 [assembly: AssemblyVersion ("1.0.0")]
 
 // The following attributes are used to specify the signing key for the assembly,

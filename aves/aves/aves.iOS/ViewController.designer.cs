@@ -7,7 +7,7 @@ using Foundation;
 using System.CodeDom.Compiler;
 using UIKit;
 
-namespace aves.iOS
+namespace Aves.iOS
 {
 	[Register ("ViewController")]
 	partial class ViewController

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:rowCount="8"
+        android:columnCount="2"
+        android:layout_centerInParent="true">
+        <ImageButton
+            android:id="@+id/ibtnSmBino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@color/tono3"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="90dp"
+            android:src="@drawable/ic_binocular" />
+        <ImageButton
+            android:id="@+id/ibtnSmBote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@color/tono3"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="90dp"
+            android:src="@drawable/ic_botella" />
+        <TextView
+            android:text="Binoculares"
+            android:layout_marginTop="20dip"
+            android:layout_marginLeft="60dp"
+            android:layout_centerVertical="true" />
+        <TextView
+            android:text="Botella con agua"
+            android:layout_marginTop="20dip"
+            android:layout_marginLeft="60dp"
+            android:layout_centerVertical="true" />
+    <!---->
+        <ImageButton
+            android:id="@+id/ibtnSmSand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@color/tono3"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="90dp"
+            android:src="@drawable/ic_sanduche" />
+        <ImageButton
+            android:id="@+id/ibtnSmCama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@color/tono3"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="90dp"
+            android:src="@drawable/ic_camara" />
+        <TextView
+            android:text="Sánduche"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="20dp" />
+        <TextView
+            android:text="Cámara"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="20dp" />
+    <!---->
+        <ImageButton
+            android:id="@+id/ibtnSmLibr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@color/tono3"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="90dp"
+            android:src="@drawable/ic_libreta" />
+        <ImageButton
+            android:id="@+id/ibtnSmLupa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@color/tono3"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="90dp"
+            android:src="@drawable/ic_lupa" />
+        <TextView
+            android:text="Libreta de anotaciones"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="20dp" />
+        <TextView
+            android:text="Lupa"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="20dp" />
+    <!---->
+        <ImageButton
+            android:id="@+id/ibtnSmPinz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@color/tono3"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="90dp"
+            android:src="@drawable/ic_pinza" />
+        <ImageButton
+            android:id="@+id/ibtnSmLapi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@color/tono3"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="90dp"
+            android:src="@drawable/ic_lapiz" />
+        <TextView
+            android:text="Pinza para muestras"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="20dp" />
+        <TextView
+            android:text="Lápiz"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="20dp" />
+    </GridLayout>
+</RelativeLayout>

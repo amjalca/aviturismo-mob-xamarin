@@ -4,10 +4,10 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <ProjectGuid>{B1D0D461-9D70-489D-90E2-965C951502F8}</ProjectGuid>
+    <ProjectGuid>{AC881C70-4AB4-4753-B08A-4AACABCDB48F}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>aves</RootNamespace>
-    <AssemblyName>aves</AssemblyName>
+    <RootNamespace>Aves</RootNamespace>
+    <AssemblyName>Aves</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Profile259</TargetFrameworkProfile>
     <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>

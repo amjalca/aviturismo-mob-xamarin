@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B5BAC438-2CEA-4BBF-A13F-2699B4012EFF}</ProjectGuid>
+    <ProjectGuid>{3E71C6A7-91AD-4263-A7D7-0B9597B60CEE}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>aves.WinPhone</RootNamespace>
-    <AssemblyName>aves.WinPhone</AssemblyName>
+    <RootNamespace>Aves.WinPhone</RootNamespace>
+    <AssemblyName>Aves.WinPhone</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformVersion>8.1</TargetPlatformVersion>
     <MinimumVisualStudioVersion>12</MinimumVisualStudioVersion>
@@ -79,8 +79,8 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\aves\aves.csproj">
-      <Name>aves</Name>
+    <ProjectReference Include="..\Aves\Aves.csproj">
+      <Name>Aves</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

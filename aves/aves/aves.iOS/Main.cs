@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace aves.iOS
+namespace Aves.iOS
 {
 	public class Application
 	{

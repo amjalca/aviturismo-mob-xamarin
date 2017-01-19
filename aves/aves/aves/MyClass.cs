@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace aves
+namespace Aves
 {
     public class MyClass
     {
