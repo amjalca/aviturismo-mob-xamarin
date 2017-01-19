@@ -1621,9 +1621,6 @@ namespace Aves.Droid
 			// aapt resource value: 0x7f0b0035
 			public const int expanded_menu = 2131427381;
 			
-			// aapt resource value: 0x7f0b004d
-			public const int gridLayout1 = 2131427405;
-			
 			// aapt resource value: 0x7f0b0004
 			public const int home = 2131427332;
 			
@@ -1809,6 +1806,9 @@ namespace Aves.Droid
 			
 			// aapt resource value: 0x7f0b0031
 			public const int textSpacerNoButtons = 2131427377;
+			
+			// aapt resource value: 0x7f0b004d
+			public const int textmsg = 2131427405;
 			
 			// aapt resource value: 0x7f0b005a
 			public const int time = 2131427418;

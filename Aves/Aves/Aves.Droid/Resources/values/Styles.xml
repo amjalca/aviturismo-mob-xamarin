@@ -5,7 +5,7 @@
     <!--Override de bar color-->
     <item name="android:colorPrimary">@color/tono4</item>
     <item name="android:windowBackground">@color/tono3</item>
-    <item name="android:textColorPrimary">@color/tono3</item>
+    <item name="android:textColorPrimary">@color/tono1</item>
     <item name="android:colorAccent">@color/tono2</item>
     <item name="android:actionBarStyle">@style/MiActionBar</item>
   </style>

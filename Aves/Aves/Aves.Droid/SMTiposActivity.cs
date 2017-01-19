@@ -23,8 +23,11 @@ namespace Aves.Droid
 
             //CreateTab(typeof(TabATiposActivity), "a_tipos_on", "Aprender", Resource.Drawable.ic_tab_tipos_aprender_on);
             //CreateTab(typeof(TabETiposActivity), "e_tipos", "Evaluar", Resource.Drawable.ic_tab_tipos_evaluar);
-
+                        
         }
+
+        
+    
 
         //private void CreateTab(Type activityType, string tag, string label, int drawableId)
         //{

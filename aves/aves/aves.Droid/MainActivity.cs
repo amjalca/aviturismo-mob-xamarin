@@ -20,29 +20,26 @@ namespace Aves.Droid
 
             // Set our view from the "main" layout resource
             SetContentView (Resource.Layout.Menu);
-            var ibtnEquipos = FindViewById<ImageButton>(Resource.Id.ibtnMnEqui);
-            
+
+            var ibtnEquipos = FindViewById<ImageButton>(Resource.Id.ibtnMnEqui);            
             ibtnEquipos.Click += (sender, e) => {
                 var subMenuEquipos = new Intent(this, typeof(SMEquiposActivity));
                 StartActivity(subMenuEquipos);
             };
 
             var ibtnRecomendaciones = FindViewById<ImageButton>(Resource.Id.ibtnMnReco);
-
             ibtnRecomendaciones.Click += (sender, e) => {
                 var subMenuRecomendaciones = new Intent(this, typeof(SMRecomendacionesActivity));
                 StartActivity(subMenuRecomendaciones);
             };
 
             var ibtnTipos = FindViewById<ImageButton>(Resource.Id.ibtnMnTipo);
-
             ibtnTipos.Click += (sender, e) => {
                 var subMenuTipos = new Intent(this, typeof(SMTiposActivity));
                 StartActivity(subMenuTipos);
             };
 
             var ibtnMorfologia = FindViewById<ImageButton>(Resource.Id.ibtnMnMorf);
-
             ibtnMorfologia.Click += (sender, e) => {
                 var subMenuMorfologia = new Intent(this, typeof(SMMorfologiaActivity));
                 StartActivity(subMenuMorfologia);

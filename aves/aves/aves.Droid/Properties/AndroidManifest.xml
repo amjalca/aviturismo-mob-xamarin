@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" android:versionCode="1" android:versionName="1.0">
 	<uses-sdk android:minSdkVersion="15" android:targetSdkVersion="23" />
-	<application android:theme="@style/BaseTema" android:label="Aprendizaje de aves" android:icon="@drawable/ic_launcher"></application>
+	<application android:theme="@style/BaseTema" android:icon="@drawable/ic_launcher" android:label="Aprendizaje de aves"></application>
 </manifest>
