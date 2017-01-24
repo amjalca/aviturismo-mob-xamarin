@@ -484,5 +484,8 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable-xxxhdpi\ic_keyboard_arrow_right.png" />
   </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\gaviota.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
 </Project>

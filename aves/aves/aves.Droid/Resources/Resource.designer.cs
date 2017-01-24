@@ -1390,115 +1390,118 @@ namespace Aves.Droid
 			public const int equipos = 2130837566;
 			
 			// aapt resource value: 0x7f02003f
-			public const int ic_action_home = 2130837567;
+			public const int gaviota = 2130837567;
 			
 			// aapt resource value: 0x7f020040
-			public const int ic_action_info = 2130837568;
+			public const int ic_action_home = 2130837568;
 			
 			// aapt resource value: 0x7f020041
-			public const int ic_action_menu = 2130837569;
+			public const int ic_action_info = 2130837569;
 			
 			// aapt resource value: 0x7f020042
-			public const int ic_aprender_selected = 2130837570;
+			public const int ic_action_menu = 2130837570;
 			
 			// aapt resource value: 0x7f020043
-			public const int ic_aprender_unselected = 2130837571;
+			public const int ic_aprender_selected = 2130837571;
 			
 			// aapt resource value: 0x7f020044
-			public const int ic_binocular = 2130837572;
+			public const int ic_aprender_unselected = 2130837572;
 			
 			// aapt resource value: 0x7f020045
-			public const int ic_botella = 2130837573;
+			public const int ic_binocular = 2130837573;
 			
 			// aapt resource value: 0x7f020046
-			public const int ic_camara = 2130837574;
+			public const int ic_botella = 2130837574;
 			
 			// aapt resource value: 0x7f020047
-			public const int ic_equipo = 2130837575;
+			public const int ic_camara = 2130837575;
 			
 			// aapt resource value: 0x7f020048
-			public const int ic_equipos = 2130837576;
+			public const int ic_equipo = 2130837576;
 			
 			// aapt resource value: 0x7f020049
-			public const int ic_evaluar_selected = 2130837577;
+			public const int ic_equipos = 2130837577;
 			
 			// aapt resource value: 0x7f02004a
-			public const int ic_evaluar_unselected = 2130837578;
+			public const int ic_evaluar_selected = 2130837578;
 			
 			// aapt resource value: 0x7f02004b
-			public const int ic_gaviota = 2130837579;
+			public const int ic_evaluar_unselected = 2130837579;
 			
 			// aapt resource value: 0x7f02004c
-			public const int ic_habitats = 2130837580;
+			public const int ic_gaviota = 2130837580;
 			
 			// aapt resource value: 0x7f02004d
-			public const int ic_keyboard_arrow_right = 2130837581;
+			public const int ic_habitats = 2130837581;
 			
 			// aapt resource value: 0x7f02004e
-			public const int ic_lapiz = 2130837582;
+			public const int ic_keyboard_arrow_right = 2130837582;
 			
 			// aapt resource value: 0x7f02004f
-			public const int ic_launcher = 2130837583;
+			public const int ic_lapiz = 2130837583;
 			
 			// aapt resource value: 0x7f020050
-			public const int ic_launcher_activity = 2130837584;
+			public const int ic_launcher = 2130837584;
 			
 			// aapt resource value: 0x7f020051
-			public const int ic_libreta = 2130837585;
+			public const int ic_launcher_activity = 2130837585;
 			
 			// aapt resource value: 0x7f020052
-			public const int ic_lupa = 2130837586;
+			public const int ic_libreta = 2130837586;
 			
 			// aapt resource value: 0x7f020053
-			public const int ic_menu_equipo = 2130837587;
+			public const int ic_lupa = 2130837587;
 			
 			// aapt resource value: 0x7f020054
-			public const int ic_menu_habitats = 2130837588;
+			public const int ic_menu_equipo = 2130837588;
 			
 			// aapt resource value: 0x7f020055
-			public const int ic_menu_morfologia = 2130837589;
+			public const int ic_menu_habitats = 2130837589;
 			
 			// aapt resource value: 0x7f020056
-			public const int ic_menu_recomendacion = 2130837590;
+			public const int ic_menu_morfologia = 2130837590;
 			
 			// aapt resource value: 0x7f020057
-			public const int ic_menu_sonido = 2130837591;
+			public const int ic_menu_recomendacion = 2130837591;
 			
 			// aapt resource value: 0x7f020058
-			public const int ic_menu_tipo = 2130837592;
+			public const int ic_menu_sonido = 2130837592;
 			
 			// aapt resource value: 0x7f020059
-			public const int ic_morfologia = 2130837593;
+			public const int ic_menu_tipo = 2130837593;
 			
 			// aapt resource value: 0x7f02005a
-			public const int ic_pinza = 2130837594;
+			public const int ic_morfologia = 2130837594;
 			
 			// aapt resource value: 0x7f02005b
-			public const int ic_recomendaciones = 2130837595;
+			public const int ic_pinza = 2130837595;
 			
 			// aapt resource value: 0x7f02005c
-			public const int ic_sanduche = 2130837596;
+			public const int ic_recomendaciones = 2130837596;
 			
 			// aapt resource value: 0x7f02005d
-			public const int ic_sonidos = 2130837597;
+			public const int ic_sanduche = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
-			public const int ic_tab_tipos_aprender_on = 2130837598;
+			public const int ic_sonidos = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int ic_tab_tipos_evaluar = 2130837599;
+			public const int ic_tab_tipos_aprender_on = 2130837599;
 			
 			// aapt resource value: 0x7f020060
-			public const int ic_tipos = 2130837600;
+			public const int ic_tab_tipos_evaluar = 2130837600;
 			
 			// aapt resource value: 0x7f020061
-			public const int Icon = 2130837601;
-			
-			// aapt resource value: 0x7f020063
-			public const int notification_template_icon_bg = 2130837603;
+			public const int ic_tipos = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public const int taxonomia = 2130837602;
+			public const int Icon = 2130837602;
+			
+			// aapt resource value: 0x7f020064
+			public const int notification_template_icon_bg = 2130837604;
+			
+			// aapt resource value: 0x7f020063
+			public const int taxonomia = 2130837603;
 			
 			static Drawable()
 			{
