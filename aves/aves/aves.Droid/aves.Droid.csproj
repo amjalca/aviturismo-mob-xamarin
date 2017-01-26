@@ -67,6 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ImageAdapter.cs" />
+    <Compile Include="ImageAdapterS.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -75,6 +76,7 @@
     <Compile Include="SMMenuActivity.cs" />
     <Compile Include="SMMorfologiaActivity.cs" />
     <Compile Include="SMRecomendacionesActivity.cs" />
+    <Compile Include="SMSonidoActivity.cs" />
     <Compile Include="SMTiposActivity.cs" />
     <Compile Include="TabATiposActivity.cs" />
     <Compile Include="TabETiposActivity.cs" />
@@ -103,6 +105,9 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\SMHabitats.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\SMSonido.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
@@ -511,6 +516,15 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\selva.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\cacique_lomiamarillo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\cerceta_aliazul.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\zanate_matorralero.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
 </Project>

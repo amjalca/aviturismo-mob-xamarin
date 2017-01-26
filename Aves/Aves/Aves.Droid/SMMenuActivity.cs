@@ -45,16 +45,19 @@ namespace Aves.Droid
                 StartActivity(subMenuMorfologia);
             };
 
-            var ibtnHabitats = FindViewById<ImageButton>(Resource.Id.ibtnMnHabi);
-            ibtnHabitats.Click += (sender, e) =>
+            var ibtnHabitat = FindViewById<ImageButton>(Resource.Id.ibtnMnHabi);
+            ibtnHabitat.Click += (sender, e) =>
             {
-                var subMenuHabitats = new Intent(this, typeof(SMHabitatsActivity));
-                StartActivity(subMenuHabitats);
+                var subMenuHabitat = new Intent(this, typeof(SMHabitatsActivity));
+                StartActivity(subMenuHabitat);
             };
-                //ImageView
-                //ImageButton botonP = (ImageButton)FindViewById(Resource.Id.ibtnMnEqui);
-                //Bitmap image = BitmapFactory.DecodeResource(Resource.Drawable.ic_equipos);
 
-            }
+            var ibtnSonido = FindViewById<ImageButton>(Resource.Id.ibtnMnSoni);
+            ibtnSonido.Click += (sender, e) =>
+            {
+                var subMenuSonido = new Intent(this, typeof(SMSonidoActivity));
+                StartActivity(subMenuSonido);
+            };
+        }
 }
 }

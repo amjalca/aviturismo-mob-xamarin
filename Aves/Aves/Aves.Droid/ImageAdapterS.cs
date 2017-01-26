@@ -5,18 +5,18 @@ using Java.Lang;
 
 namespace Aves.Droid
 {
-    public class ImageAdapter : BaseAdapter
+    public class ImageAdapterS : BaseAdapter
     {
         private readonly Context context;
 
-        public ImageAdapter(Context c)
+        public ImageAdapterS(Context c)
         {
             context = c;
         }
 
         public override int Count
         {
-            get { return imgHabitatsIds.Length; }
+            get { return imgSonidoIds.Length; }
         }
 
         public override Object GetItem(int position)
@@ -38,7 +38,7 @@ namespace Aves.Droid
             {
                 // if it's not recycled, initialize some attributes
                 imageView = new ImageView(context);
-                imageView.LayoutParameters = new AbsListView.LayoutParams(200, 200);
+                imageView.LayoutParameters = new AbsListView.LayoutParams(300, 250);
                 imageView.SetScaleType(ImageView.ScaleType.CenterCrop);
                 imageView.SetPadding(1, 4, 1, 4);
             }
@@ -47,15 +47,15 @@ namespace Aves.Droid
                 imageView = (ImageView)convertView;
             }
 
-            imageView.SetImageResource(imgHabitatsIds[position]);
+            imageView.SetImageResource(imgSonidoIds[position]);
             return imageView;
         }
 
         // references to our images
-        private readonly int[] imgHabitatsIds = {
-                                              Resource.Drawable.costa, Resource.Drawable.desierto,
-                                              Resource.Drawable.pastizal, Resource.Drawable.bosque,
-                                              Resource.Drawable.selva, Resource.Drawable.lago,
+        private readonly int[] imgSonidoIds = {
+                                              Resource.Drawable.cacique_lomiamarillo,
+                                              Resource.Drawable.zanate_matorralero,
+                                              Resource.Drawable.cerceta_aliazul,
                                           };
     }
 }
